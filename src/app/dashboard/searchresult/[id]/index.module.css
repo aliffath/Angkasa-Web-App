@@ -1,0 +1,9 @@
+.form_control {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+
+.form_control:focus {
+  border-color: #3171d8;
+  box-shadow: 0 0 5px rgba(44, 164, 229, 0.5);
+}

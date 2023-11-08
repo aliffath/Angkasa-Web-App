@@ -10,6 +10,7 @@ import "react-toastify/dist/ReactToastify.css";
 import { useRouter } from "next/navigation";
 import axios from "axios";
 import Link from "next/link";
+import NavigationBar from "@/components/Navbar";
 export default function MyBooking() {
   const router = useRouter();
   const [data, setData] = useState(null);
@@ -54,6 +55,7 @@ export default function MyBooking() {
         pauseOnHover
         theme="colored"
       />
+      <NavigationBar />
       <div style={{ backgroundColor: "#F5F6FA" }}>
         <Container className="mb-5">
           <Row>

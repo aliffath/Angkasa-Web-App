@@ -1,13 +1,16 @@
+"use client";
 import Image from "next/image";
 import Footer from "@/components/Footer";
 import Carousel from "@/components/Carousel";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import gambar from "../../public/img/index";
+import NavigationBar from "@/components/Navbar";
 
 export default function Home() {
   return (
     <main>
+      <NavigationBar />
       <div className="row mt-5 d-flex justify-content-between">
         <div className="col-6 ">
           <div className="p-5">

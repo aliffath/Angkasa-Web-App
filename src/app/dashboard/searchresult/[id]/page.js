@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import { Row, Col, Container, Form, Alert, Button } from "react-bootstrap";
 import Footer from "@/components/Footer";
 import Image from "next/image";
-
+import NavigationBar from "@/components/Navbar";
 import { useParams, useRouter } from "next/navigation";
 import Swal from "sweetalert2";
 import axios from "axios";
@@ -44,6 +44,7 @@ function DetailFlightPage(props) {
   };
   useEffect(() => {
     getData(url);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const handleSubmit = async () => {
@@ -85,6 +86,7 @@ function DetailFlightPage(props) {
 
   return (
     <>
+      <NavigationBar />
       <Row>
         <div
           className="p-0 text-center position-relative w-100 "

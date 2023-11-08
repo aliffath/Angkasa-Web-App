@@ -10,7 +10,7 @@ import ButtonAuth from "@/components/ButtonAuth";
 import plane from "../../../../public/images/whiteplane.svg";
 import Link from "next/link";
 import pesawat from "../../../../public/images/pesawat.svg";
-
+import NavigationBar from "@/components/Navbar";
 import { Bounce, toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 export default function SearchResult() {
@@ -80,6 +80,7 @@ export default function SearchResult() {
 
   useEffect(() => {
     getFilteredFlight();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [reqFacility, reqAirline]);
 
   const resetButton = () => {
@@ -109,6 +110,7 @@ export default function SearchResult() {
         pauseOnHover
         theme="colored"
       />
+      <NavigationBar />
       <div
         className="p-0 align-items-center d-flex w-100 "
         style={{
@@ -394,7 +396,12 @@ export default function SearchResult() {
                                   }
                                 )}
                               </div>
-                              <Image src={pesawat} alt="" />
+                              <Image
+                                src={pesawat}
+                                alt=""
+                                height={20}
+                                width={20}
+                              />
                               <div>
                                 <h6 className="fw-bold">{item?.to?.country}</h6>
                                 {new Date(`${item.landing}`).toLocaleString(

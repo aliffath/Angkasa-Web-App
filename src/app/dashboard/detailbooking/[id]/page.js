@@ -11,7 +11,7 @@ import { useEffect, useState } from "react";
 import garuda from "../../../../../public/images/garuda.svg";
 import plane from "../../../../../public/images/plane.svg";
 import barcode from "../../../../../public/images/barcode.svg";
-
+import NavigationBar from "@/components/Navbar";
 export default function DetailBooking() {
   const { id } = useParams();
   const [detailTicket, setDetailTicket] = useState(null);
@@ -38,6 +38,7 @@ export default function DetailBooking() {
     if (token) {
       getDetailTicket();
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [token]);
   return (
     <>
@@ -54,6 +55,7 @@ export default function DetailBooking() {
         pauseOnHover
         theme="colored"
       />
+      <NavigationBar />
       <Container
         fluid
         style={{ backgroundColor: "#2395FF", padding: "30px 0" }}

@@ -1,34 +1,97 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<br/>
+<p align="center">
+  <a href="https://github.com/aliffath/Angkasa-Web-App">
+    <img src="https://res.cloudinary.com/dafjb9vn7/image/upload/v1697245168/illustration_svsh6f.png" alt="Logo">
+  </a>
 
-## Getting Started
+  <h3 align="center">Ankasa Web</h3>
 
-First, run the development server:
+  <p align="center">
+    <br/>
+    <br/>
+    <a href="https://github.com/aliffath/Angkasa-Web-App"><strong>Explore the docs »</strong></a>
+    <br/>
+    <br/>
+    <a href="https://github.com/aliffath/Angkasa-Web-App">View Demo</a>
+    .
+    <a href="https://github.com/aliffath/Angkasa-Web-App/issues">Report Bug</a>
+    .
+    <a href="https://github.com/aliffath/Angkasa-Web-App/issues">Request Feature</a>
+  </p>
+</p>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+## Table Of Contents
+
+- [About the Project](#about-the-project)
+- [Built With](#built-with)
+- [Installation](#installation)
+- [Contributing](#contributing)
+- [Contact](#contact)
+
+## About The Project
+
+<p align="justify">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ankasa Web project is a front-end web application designed to provide a seamless and user-friendly platform for booking and exploring a diverse range of flight tickets. This project makes use of cutting-edge technologies including Node.js, Next.js, Bootstrap, React-Bootstrap and CSS. Whether you're an avid traveler searching for flight options, planning your next vacation, or just in need of booking assistance, this platform has got you covered.</p>
+
+## Built With
+
+This Web was built with some technologies below:
+
+**Technology:**
+
+- Node.js
+- Next.js
+
+**Styling:**
+
+- Bootstrap
+- React-Bootstrap
+- CSS
+
+## Installation
+
+Install Ankasa Web with npm :
+
+- Clone the Repo
+
+```
+  git clone https://github.com/aliffath/Angkasa-Web-App
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Go To Folder Repo
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```
+  cd Ankasa-Project
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Install Module
 
-## Learn More
+```
+  npm install
+```
 
-To learn more about Next.js, take a look at the following resources:
+- Run Program
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+  Type in repository path
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+```
+npm run dev
+```
 
-## Deploy on Vercel
+## Contributing
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## Contact
+
+- Email : [`alifmiftakhulfatah@gmail.com`](mailto:alifmiftakhulfatah@gmail.com)
+
+- LinkedIn : [`Alif Miftakhul Fatah`](https://www.linkedin.com/in/alif-miftakhul-fatah/)
+
+- GitHub : [`Aliffath`](https://github.com/aliffath)

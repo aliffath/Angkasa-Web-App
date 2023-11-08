@@ -5,10 +5,12 @@ import Image from "next/image";
 import ProfileCard from "@/components/cardProfile/Index";
 import Footer from "@/components/Footer";
 import styles from "./style.module.css";
+import NavigationBar from "@/components/Navbar";
 export default function Profile() {
   return (
     <Fragment>
-      <div style={{ backgroundColor: "#F5F6FA" }} className="mt-5">
+      <NavigationBar />
+      <div style={{ backgroundColor: "#F5F6FA" }} mt-2>
         <Container className="mb-5">
           <Row>
             <Col md={4}>

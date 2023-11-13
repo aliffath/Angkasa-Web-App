@@ -8,21 +8,21 @@ import "react-toastify/dist/ReactToastify.css";
 import { useParams } from "next/navigation";
 import { Container, Row, Col } from "react-bootstrap";
 import { useEffect, useState } from "react";
-import garuda from "../../../../../public/images/garuda.svg";
+
 import plane from "../../../../../public/images/plane.svg";
 import barcode from "../../../../../public/images/barcode.svg";
 import NavigationBar from "@/components/Navbar";
 export default function DetailBooking() {
   const { id } = useParams();
   const [detailTicket, setDetailTicket] = useState(null);
-  const token = localStorage.getItem("access_token");
+
   const getDetailTicket = async () => {
     try {
       const response = await axios.get(
         `${process.env.NEXT_PUBLIC_BASE_URL}/booking/tickets/${id}`,
         {
           headers: {
-            Authorization: `Bearer ${token}`,
+            Authorization: `Bearer ${localStorage.getItem("access_token")}`,
           },
         }
       );
@@ -35,11 +35,10 @@ export default function DetailBooking() {
     }
   };
   useEffect(() => {
-    if (token) {
-      getDetailTicket();
-    }
+    getDetailTicket();
+
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [token]);
+  }, []);
   return (
     <>
       <ToastContainer

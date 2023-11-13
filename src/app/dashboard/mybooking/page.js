@@ -14,14 +14,14 @@ import NavigationBar from "@/components/Navbar";
 export default function MyBooking() {
   const router = useRouter();
   const [data, setData] = useState(null);
-  const token = localStorage.getItem("access_token");
+
   const getBookingDetail = async () => {
     try {
       const response = await axios.get(
         `${process.env.NEXT_PUBLIC_BASE_URL}/booking/tickets`,
         {
           headers: {
-            Authorization: `Bearer ${token}`,
+            Authorization: `Bearer ${localStorage.getItem("access_token")}`,
             "Content-Type": "application/json",
           },
         }
@@ -35,11 +35,10 @@ export default function MyBooking() {
     }
   };
   useEffect(() => {
-    if (token) {
-      getBookingDetail();
-    }
+    getBookingDetail();
+
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [token]);
+  }, []);
   return (
     <Fragment>
       <ToastContainer

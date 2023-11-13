@@ -10,7 +10,6 @@ import { IoNotificationsOutline } from "react-icons/io5";
 import { LuUserCircle2 } from "react-icons/lu";
 import ButtonAuth from "./ButtonAuth";
 function NavigationBar() {
-  const token = localStorage.getItem("access_token");
   return (
     <Navbar collapseOnSelect expand="lg" className="bg-body-light">
       <Container>
@@ -39,7 +38,8 @@ function NavigationBar() {
             </Form>
             <Nav.Link href="/dashboard/searchresult">Find Tickets</Nav.Link>
             <Nav.Link href="/dashboard/mybooking">My Booking</Nav.Link>
-            {token ? (
+            {typeof window !== "undefined" &&
+            localStorage.getItem("access_token") ? (
               <div className="d-flex gap-3">
                 <FaRegEnvelope size={25} />
                 <IoNotificationsOutline size={25} />

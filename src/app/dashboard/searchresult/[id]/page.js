@@ -15,7 +15,6 @@ function DetailFlightPage(props) {
 
   const [dataDetailFlight, setDataDetailFlight] = useState({});
   const [profile, setProfile] = useState({});
-  const [flightData, setFlightData] = useState({});
 
   const [dataUser, setDataUser] = useState("");
   const [getTitle, setGetTitle] = useState("");

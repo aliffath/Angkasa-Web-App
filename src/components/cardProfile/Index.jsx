@@ -16,13 +16,12 @@ const ProfileCard = () => {
   const router = useRouter();
   const [data, setData] = useState([]);
   const getDetailUsers = async () => {
-    const token = localStorage.getItem("access_token");
     try {
       const response = await axios.get(
         `${process.env.NEXT_PUBLIC_BASE_URL}/users/detail`,
         {
           headers: {
-            Authorization: `Bearer ${token}`,
+            Authorization: `Bearer ${localStorage.getItem("access_token")}`,
             "Content-Type": "application/json",
           },
         }

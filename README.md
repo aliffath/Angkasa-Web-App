@@ -37,16 +37,8 @@
 
 This Web was built with some technologies below:
 
-**Technology:**
-
-- Node.js
-- Next.js
-
-**Styling:**
-
-- Bootstrap
-- React-Bootstrap
-- CSS
+- [Next Js](https://nextjs.org/)
+- [Axios](https://www.npmjs.com/package/axios)
 
 ## Installation
 
@@ -77,6 +69,24 @@ Install Ankasa Web with npm :
 ```
 npm run dev
 ```
+
+## Screenshot
+
+| Register Page                                                                                                                  | Login Page                                                                                           |
+| ------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------- |
+| [![Angkasa-Ticketing-Register.png](https://i.postimg.cc/nrQSRZzY/Angkasa-Ticketing-Register.png)](https://postimg.cc/D4nc0918) | [![Angkasa-Login.png](https://i.postimg.cc/V6hXVCr2/Angkasa-Login.png)](https://postimg.cc/bDQGGdRR) |
+
+|                                                    Landing Page                                                    |                                                 Find Ticket Page                                                 |
+| :----------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------: |
+| [![Angkasa-Landing-Page.png](https://i.postimg.cc/YqDf4TCt/Angkasa-Landing-Page.png)](https://postimg.cc/dLdTpHCf) | [![Angkasa-Find-Ticket.png](https://i.postimg.cc/HnzG4dPZ/Angkasa-Find-Ticket.png)](https://postimg.cc/D4SY7khL) |
+
+|                                                Mybooking Page                                                |                                               Profile Page                                               |
+| :----------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------: |
+| [![Angkasa-Mybooking.png](https://i.postimg.cc/W3xNdMHN/Angkasa-Mybooking.png)](https://postimg.cc/Q9kGPWDw) | [![Angkasa-Profile.png](https://i.postimg.cc/JzR1H7Pk/Angkasa-Profile.png)](https://postimg.cc/zVPm9Nmz) |
+
+|                                                  Detail Ticket Page                                                  |                                               Booking Page                                               |
+| :------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------: |
+| [![Angkasa-Detail-Ticket.png](https://i.postimg.cc/t4rH13sK/Angkasa-Detail-Ticket.png)](https://postimg.cc/CRf2XfH7) | [![Angkasa-Booking.png](https://i.postimg.cc/bNpX3CkX/Angkasa-Booking.png)](https://postimg.cc/9z8NfBL1) |
 
 ## Contributing
 

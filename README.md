@@ -12,7 +12,7 @@
     <a href="https://github.com/aliffath/Angkasa-Web-App"><strong>Explore the docs »</strong></a>
     <br/>
     <br/>
-    <a href="https://github.com/aliffath/Angkasa-Web-App">View Demo</a>
+    <a href="https://angkasa-web-app.vercel.app/">View Demo</a>
     .
     <a href="https://github.com/aliffath/Angkasa-Web-App/issues">Report Bug</a>
     .
@@ -26,6 +26,7 @@
 - [Built With](#built-with)
 - [Installation](#installation)
 - [Contributing](#contributing)
+- [Related Project](#related-project)
 - [Contact](#contact)
 
 ## About The Project
@@ -39,6 +40,13 @@ This Web was built with some technologies below:
 
 - [Next Js](https://nextjs.org/)
 - [Axios](https://www.npmjs.com/package/axios)
+- [React Bootstrap](https://www.npmjs.com/package/react-bootstrap)
+
+### Prerequisites
+
+Before going to the installation stage there are some software that must be installed first.
+
+- **NodeJS**, I'm using **v18.16.0** when this docs is uploaded. You can download NodeJS in https://nodejs.org/en/download
 
 ## Installation
 
@@ -97,6 +105,12 @@ Contributions are what make the open-source community such an amazing place to l
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
+
+## Related Project
+
+:rocket: [`Frontend Angkasa Ticketing`](https://github.com/aliffath/Angkasa-Web-App)
+
+:rocket: [`Demo Project`](https://angkasa-web-app.vercel.app/)
 
 ## Contact
 
